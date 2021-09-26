@@ -6,7 +6,7 @@ export default{
     },
     // 获取值的最新状态
     getters:{
-        getmMessage : state => state.message
+        getMessage : state => state.message
     },
     // 改变值
     mutations:{
