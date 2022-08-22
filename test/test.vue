@@ -11,7 +11,7 @@ export default {
             }
         },
         test(){
-            this.$store.commit('message',1)  //存储值
+            this.$store.commit('app/message',1)  //存储值
 
             // this.message 使用
         }
